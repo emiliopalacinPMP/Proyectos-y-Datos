@@ -1,0 +1,23 @@
+// Actual Cost (AC)
+Measure_AC = SUM('EVM_Data'[AC_Actual_Cost])
+
+// Planned Value (PV) - based on Percent_Complete
+Measure_PV = SUMPRODUCT('EVM_Data'[AC_Actual_Cost], 'EVM_Data'[Percent_Complete])
+
+// Earned Value (EV)
+Measure_EV = SUMPRODUCT('EVM_Data'[AC_Actual_Cost], 'EVM_Data'[Percent_Complete])
+
+// Cost Variance (CV)
+Measure_CV = [Measure_EV] - [Measure_AC]
+
+// Schedule Variance (SV)
+Measure_SV = [Measure_EV] - [Measure_PV]
+
+// Cost Performance Index (CPI)
+Measure_CPI = DIVIDE([Measure_EV], [Measure_AC], 0)
+
+// Schedule Performance Index (SPI)
+Measure_SPI = DIVIDE([Measure_EV], [Measure_PV], 0)
+
+// Estimate at Completion (EAC)
+Measure_EAC = DIVIDE([Measure_AC], [Measure_CPI], [Measure_AC])
