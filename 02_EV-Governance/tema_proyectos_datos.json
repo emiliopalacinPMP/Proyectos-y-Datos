@@ -1,0 +1,67 @@
+{
+    "name": "Proyectos & Datos - Edici\u00f3n 2",
+    "dataColors": [
+        "#1A3B5D",
+        "#28A745",
+        "#C0392B",
+        "#7F8C8D",
+        "#F39C12",
+        "#2C3E50",
+        "#BDC3C7",
+        "#2980B9"
+    ],
+    "visualStyles": {
+        "*": {
+            "*": {
+                "title": [
+                    {
+                        "show": true,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#1A3B5D"
+                            }
+                        },
+                        "fontSize": 12,
+                        "fontFamily": "Segoe UI Semibold"
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#BDC3C7"
+                            }
+                        },
+                        "radius": 5
+                    }
+                ]
+            }
+        }
+    },
+    "textClasses": {
+        "label": {
+            "fontFace": "Segoe UI",
+            "fontSize": 10
+        },
+        "callout": {
+            "fontFace": "Segoe UI Semibold",
+            "fontSize": 25,
+            "color": "#1A3B5D"
+        },
+        "title": {
+            "fontFace": "Segoe UI Semibold",
+            "fontSize": 14
+        },
+        "header": {
+            "fontFace": "Segoe UI Semibold",
+            "fontSize": 12
+        }
+    }
+}
