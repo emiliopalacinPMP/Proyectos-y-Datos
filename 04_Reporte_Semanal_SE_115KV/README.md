@@ -15,3 +15,9 @@ Este repositorio contiene el núcleo técnico de la gobernanza de datos para la 
 
 ## 🎯 Estándar Aplicado
 Desarrollado bajo los dominios de **Planificación e Incertidumbre del PMBOK® 8.ª edición**, priorizando la transparencia de datos y la gestión de riesgos probabilísticos.
+
+## ⚠️ Descargo de Responsabilidad (Disclaimer)
+Este repositorio y el "Modelo de Informe para PMO 4.0" se comparten con fines estrictamente educativos y demostrativos. 
+* **Uso bajo propio riesgo:** El autor no se hace responsable por decisiones financieras, contractuales o de planificación tomadas basadas en el uso de estos scripts o modelos.
+* **Validación requerida:** Los modelos estocásticos (Monte Carlo) dependen de la calidad de los datos de entrada; es responsabilidad del usuario validar sus propias distribuciones y parámetros.
+* **Sin garantías:** El software se proporciona "tal cual", sin garantía de ningún tipo, expresa o implícita.
